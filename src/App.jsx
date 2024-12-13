@@ -1,10 +1,12 @@
-import './App.css'
+
 
 function App() {
 
   return (
     <>
-     <p>Hello world</p>
+      <main className="bg-black text-white h-screen w-screen">
+        <h1>Hello</h1>
+      </main>
     </>
   )
 }
