@@ -22,7 +22,7 @@ const Time = () => {
     }
 
     return () => clearInterval(intervalId);
-  }, [isRunning, timeRemaining]);
+  }, [isRunning]);
 
   const startTimer = () => setIsRunning(true);
   const stopTimer = () => setIsRunning(false);
